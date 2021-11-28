@@ -1,0 +1,49 @@
+.collection-item{
+    cursor: pointer;
+}
+h6.logo{
+    size: 24px;
+    
+}
+.collection.with-header .collection-item {
+    padding-left: 0px;
+}
+.collection .collection-item {
+    background-color: #fff;
+    line-height: 1.5rem;
+    padding: 0px 0px;
+    margin: 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.collection.with-header .collection-header {
+    padding: 14px 20px;
+}
+.collection .collection-item:last-child{
+    border-bottom: 1px solid #e0e0e0;
+}
+.collection .collection-item.active {
+    background-color: #e0e0e0;
+    color: #eafaf9;
+    border-left: 3px solid black;
+}
+.sidenav .collapsible-header, .sidenav.fixed .collapsible-header {
+    line-height: 3.4;
+    padding: 0 32px;
+}
+.triggerClose{
+    cursor: pointer;
+}
+nav .nav-wrapper {
+    position: relative;
+    height: 100%;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+nav .brand-logo {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding-left: 10px;
+}

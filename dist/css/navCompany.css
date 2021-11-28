@@ -1,0 +1,19 @@
+@media only screen and (min-width: 993px){
+    nav a.sidenav-trigger {
+        display: block;
+    }
+}
+
+nav .brand-logo {
+    
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0;
+}
+
+nav.navbar .brand-logo {
+    position: relative;
+    float: left;
+    font-size: 18px;
+}
